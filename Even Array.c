@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+    int n,s;
+    scanf("%d\n",&n);
+    int a[n];
+    int i;
+    for(i=0;i<n;i++)
+    {
+        scanf("%d ",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+       
+    }
+    if(a[i]%2==0)
+    {
+        printf("True");
+    }
+    else
+    {
+        printf("False");
+    }
+
+}
